@@ -1,0 +1,7 @@
+SET_DETECTOR 1
+SET_PRESET_CLEAR
+SET_PRESET_LIVE 64800
+CLEAR
+START
+WAIT
+SAVE "C:\Users\srlab\Desktop\akhil_nirmal_compton_scattering\Day 5\60_degrees_rod_18hr.chn"
