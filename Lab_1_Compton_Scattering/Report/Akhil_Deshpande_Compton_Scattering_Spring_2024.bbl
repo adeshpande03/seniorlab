@@ -6,11 +6,32 @@ Encyclopædia Britannica.
 \newblock \url{https://www.britannica.com/science/Compton-effect}.
 \newblock Accessed 20 Feb., 2024.
 
+\bibitem{PhysRev.21.483}
+Arthur~H. Compton.
+\newblock {A Quantum Theory of the Scattering of X-rays by Light Elements}.
+\newblock {\em Phys. Rev.}, 21:483--502, May 1923.
+
 \bibitem{Pattison1975}
 Philip Pattison.
 \newblock {X Ray and Gamma Ray Compton Scattering}.
 \newblock {\em University of Warwick, Department of Physics}, 1975.
 \newblock Accesssed 20 Feb., 2024.
+
+\bibitem{GammaSpectacularBA133}
+Gamma Spectacular.
+\newblock {Ba133 Spectrum}.
+\newblock
+  \url{https://www.gammaspectacular.com/blue/gamma_spectra/ba133-spectrum},
+  2024.
+\newblock Accessed: 2024-02-22.
+
+\bibitem{GammaSpectacularCS137}
+Gamma Spectacular.
+\newblock {Cs137 Spectrum}.
+\newblock
+  \url{https://www.gammaspectacular.com/blue/gamma_spectra/cs137-spectrum},
+  2024.
+\newblock Accessed: 2024-02-22.
 
 \bibitem{Taylor2004ModernPhysics}
 J.R. Taylor, C.D. Zafiratos, and M.A. Dubson.

@@ -3,44 +3,44 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: Akhil_Deshpande_Compton_Scattering_Spring_2024.aux
 The style file: plain.bst
 Database file #1: refs.bib
-You've used 3 entries,
+You've used 6 entries,
             2118 wiz_defined-function locations,
-            517 strings with 4569 characters,
-and the built_in function-call counts, 736 in all, are:
-= -- 69
-> -- 32
+            537 strings with 5029 characters,
+and the built_in function-call counts, 1464 in all, are:
+= -- 145
+> -- 53
 < -- 0
-+ -- 13
-- -- 10
-* -- 34
-:= -- 137
-add.period$ -- 11
-call.type$ -- 3
-change.case$ -- 14
++ -- 22
+- -- 16
+* -- 67
+:= -- 260
+add.period$ -- 22
+call.type$ -- 6
+change.case$ -- 26
 chr.to.int$ -- 0
-cite$ -- 3
-duplicate$ -- 29
-empty$ -- 62
-format.name$ -- 10
-if$ -- 151
+cite$ -- 6
+duplicate$ -- 54
+empty$ -- 132
+format.name$ -- 16
+if$ -- 307
 int.to.chr$ -- 0
-int.to.str$ -- 3
-missing$ -- 3
-newline$ -- 20
-num.names$ -- 6
-pop$ -- 22
+int.to.str$ -- 6
+missing$ -- 4
+newline$ -- 37
+num.names$ -- 12
+pop$ -- 40
 preamble$ -- 1
-purify$ -- 11
+purify$ -- 20
 quote$ -- 0
-skip$ -- 18
+skip$ -- 37
 stack$ -- 0
-substring$ -- 15
-swap$ -- 3
+substring$ -- 55
+swap$ -- 6
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 10
+type$ -- 22
 warning$ -- 0
-while$ -- 6
-width$ -- 4
-write$ -- 36
+while$ -- 14
+width$ -- 7
+write$ -- 71
