@@ -1,5 +1,11 @@
 \begin{thebibliography}{1}
 
+\bibitem{Pattison1975}
+Philip Pattison.
+\newblock {X Ray and Gamma Ray Compton Scattering}.
+\newblock {\em University of Warwick, Department of Physics}, 1975.
+\newblock Accesssed 20 Feb., 2024.
+
 \bibitem{ComptonEffectImage}
 Encyclopædia Britannica.
 \newblock {X-ray photon part electron energy Arthur Compton}.
@@ -11,19 +17,15 @@ Arthur~H. Compton.
 \newblock {A Quantum Theory of the Scattering of X-rays by Light Elements}.
 \newblock {\em Phys. Rev.}, 21:483--502, May 1923.
 
-\bibitem{Pattison1975}
-Philip Pattison.
-\newblock {X Ray and Gamma Ray Compton Scattering}.
-\newblock {\em University of Warwick, Department of Physics}, 1975.
-\newblock Accesssed 20 Feb., 2024.
+\bibitem{Taylor2004ModernPhysics}
+J.R. Taylor, C.D. Zafiratos, and M.A. Dubson.
+\newblock {\em Modern Physics for Scientists and Engineers}.
+\newblock Prentice Hall, 2 edition, 2004.
 
-\bibitem{GammaSpectacularBA133}
-Gamma Spectacular.
-\newblock {Ba133 Spectrum}.
-\newblock
-  \url{https://www.gammaspectacular.com/blue/gamma_spectra/ba133-spectrum},
-  2024.
-\newblock Accessed: 2024-02-22.
+\bibitem{adesh}
+Akhil Deshpande.
+\newblock Senior lab reports and code.
+\newblock \url{https://github.com/adeshpande03/seniorlab}, 2024.
 
 \bibitem{GammaSpectacularCS137}
 Gamma Spectacular.
@@ -33,9 +35,12 @@ Gamma Spectacular.
   2024.
 \newblock Accessed: 2024-02-22.
 
-\bibitem{Taylor2004ModernPhysics}
-J.R. Taylor, C.D. Zafiratos, and M.A. Dubson.
-\newblock {\em Modern Physics for Scientists and Engineers}.
-\newblock Prentice Hall, 2 edition, 2004.
+\bibitem{GammaSpectacularBA133}
+Gamma Spectacular.
+\newblock {Ba133 Spectrum}.
+\newblock
+  \url{https://www.gammaspectacular.com/blue/gamma_spectra/ba133-spectrum},
+  2024.
+\newblock Accessed: 2024-02-22.
 
 \end{thebibliography}
