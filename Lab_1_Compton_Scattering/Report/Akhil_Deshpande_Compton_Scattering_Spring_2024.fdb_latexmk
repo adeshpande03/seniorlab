@@ -1,15 +1,15 @@
 # Fdb version 3
-["bibtex Akhil_Deshpande_Compton_Scattering_Spring_2024"] 1708645959 "Akhil_Deshpande_Compton_Scattering_Spring_2024.aux" "Akhil_Deshpande_Compton_Scattering_Spring_2024.bbl" "Akhil_Deshpande_Compton_Scattering_Spring_2024" 1708646198
+["bibtex Akhil_Deshpande_Compton_Scattering_Spring_2024"] 1708717243 "Akhil_Deshpande_Compton_Scattering_Spring_2024.aux" "Akhil_Deshpande_Compton_Scattering_Spring_2024.bbl" "Akhil_Deshpande_Compton_Scattering_Spring_2024" 1708717246
   "/usr/local/texlive/2021/texmf-dist/bibtex/bst/base/plain.bst" 1292289607 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
   "/usr/local/texlive/2021/texmf-dist/bibtex/bst/base/unsrt.bst" 1292289607 18030 1376b4b231b50c66211e47e42eda2875 ""
-  "Akhil_Deshpande_Compton_Scattering_Spring_2024.aux" 1708646198 9450 a98c73b5bbe5755b6c347f6180a74ad5 "pdflatex"
+  "Akhil_Deshpande_Compton_Scattering_Spring_2024.aux" 1708717245 11098 a01a2561bfc26626a3364a94bbf2d1c8 "pdflatex"
   "refs.bib" 1708645319 2041 4d475f1382cbcb0ca366349e4e4e6d79 ""
   (generated)
   "Akhil_Deshpande_Compton_Scattering_Spring_2024.blg"
   "Akhil_Deshpande_Compton_Scattering_Spring_2024.bbl"
-["pdflatex"] 1708646197 "/Users/akhildeshpande/Documents/VSCode/seniorlab/Lab_1_Compton_Scattering/Report/Akhil_Deshpande_Compton_Scattering_Spring_2024.tex" "/Users/akhildeshpande/Documents/VSCode/seniorlab/Lab_1_Compton_Scattering/Report/Akhil_Deshpande_Compton_Scattering_Spring_2024.pdf" "Akhil_Deshpande_Compton_Scattering_Spring_2024" 1708646198
-  "/Users/akhildeshpande/Documents/VSCode/seniorlab/Lab_1_Compton_Scattering/Report/Akhil_Deshpande_Compton_Scattering_Spring_2024.aux" 1708646198 9450 a98c73b5bbe5755b6c347f6180a74ad5 ""
-  "/Users/akhildeshpande/Documents/VSCode/seniorlab/Lab_1_Compton_Scattering/Report/Akhil_Deshpande_Compton_Scattering_Spring_2024.tex" 1708646196 23460 016c2852e5ae654469479d97dc58c77c ""
+["pdflatex"] 1708717244 "/Users/akhildeshpande/Documents/VSCode/seniorlab/Lab_1_Compton_Scattering/Report/Akhil_Deshpande_Compton_Scattering_Spring_2024.tex" "/Users/akhildeshpande/Documents/VSCode/seniorlab/Lab_1_Compton_Scattering/Report/Akhil_Deshpande_Compton_Scattering_Spring_2024.pdf" "Akhil_Deshpande_Compton_Scattering_Spring_2024" 1708717246
+  "/Users/akhildeshpande/Documents/VSCode/seniorlab/Lab_1_Compton_Scattering/Report/Akhil_Deshpande_Compton_Scattering_Spring_2024.aux" 1708717245 11098 a01a2561bfc26626a3364a94bbf2d1c8 ""
+  "/Users/akhildeshpande/Documents/VSCode/seniorlab/Lab_1_Compton_Scattering/Report/Akhil_Deshpande_Compton_Scattering_Spring_2024.tex" 1708717243 23435 7d4b94b57653ffe5b66fe62862534d81 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -109,10 +109,10 @@
   "/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1616695603 5169178 a2ce6e2d73f603b690db6777d06dbccb ""
   "/usr/local/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1646843111 2724734 6759486adf2de4a9d8dec44b68f9ba17 ""
   "/usr/local/texlive/2021/texmf.cnf" 1616695596 577 4c1911a7228e554c6032256d3cf5567d ""
-  "Akhil_Deshpande_Compton_Scattering_Spring_2024.aux" 1708646198 9450 a98c73b5bbe5755b6c347f6180a74ad5 "pdflatex"
-  "Akhil_Deshpande_Compton_Scattering_Spring_2024.bbl" 1708645959 1371 7bfb6ff521fa59ad7210d41d705a1b62 "bibtex Akhil_Deshpande_Compton_Scattering_Spring_2024"
-  "Akhil_Deshpande_Compton_Scattering_Spring_2024.out" 1708646198 1091 7cddc1d5245aafd2f4c82899d029b182 "pdflatex"
-  "Akhil_Deshpande_Compton_Scattering_Spring_2024.tex" 1708646196 23460 016c2852e5ae654469479d97dc58c77c ""
+  "Akhil_Deshpande_Compton_Scattering_Spring_2024.aux" 1708717245 11098 a01a2561bfc26626a3364a94bbf2d1c8 "pdflatex"
+  "Akhil_Deshpande_Compton_Scattering_Spring_2024.bbl" 1708717243 1371 7bfb6ff521fa59ad7210d41d705a1b62 "bibtex Akhil_Deshpande_Compton_Scattering_Spring_2024"
+  "Akhil_Deshpande_Compton_Scattering_Spring_2024.out" 1708717245 2950 f2f735f5dd4c2a8e3da23e6706012f30 "pdflatex"
+  "Akhil_Deshpande_Compton_Scattering_Spring_2024.tex" 1708717243 23435 7d4b94b57653ffe5b66fe62862534d81 ""
   "img//40.png" 1708626583 143978 2496aa6b013606917f1877899424b559 ""
   "img//80.png" 1708626603 78087 4c1db2cb93a1d6e991f75d94e82ce486 ""
   "img//KNvsT.png" 1708626622 37038 f025af9ebe4869363820cf7659f59918 ""
@@ -124,9 +124,9 @@
   "img//scattering.jpg" 1708550138 284620 68a8b480582dcaffcf28282cd178b586 ""
   "img//spectroscopyamplifier.JPG" 1708549980 3170367 7ffca6499efc3a3c04c5df29c45ef94e ""
   (generated)
-  "Akhil_Deshpande_Compton_Scattering_Spring_2024.aux"
-  "/Users/akhildeshpande/Documents/VSCode/seniorlab/Lab_1_Compton_Scattering/Report/Akhil_Deshpande_Compton_Scattering_Spring_2024.log"
-  "Akhil_Deshpande_Compton_Scattering_Spring_2024.out"
   "Akhil_Deshpande_Compton_Scattering_Spring_2024.pdf"
+  "/Users/akhildeshpande/Documents/VSCode/seniorlab/Lab_1_Compton_Scattering/Report/Akhil_Deshpande_Compton_Scattering_Spring_2024.log"
   "/Users/akhildeshpande/Documents/VSCode/seniorlab/Lab_1_Compton_Scattering/Report/Akhil_Deshpande_Compton_Scattering_Spring_2024.pdf"
   "Akhil_Deshpande_Compton_Scattering_Spring_2024.log"
+  "Akhil_Deshpande_Compton_Scattering_Spring_2024.aux"
+  "Akhil_Deshpande_Compton_Scattering_Spring_2024.out"

@@ -35,7 +35,7 @@ Final (scattered) energies from waves in this spectrum will usually be lower tha
         \caption{This image depicts the Compton effect. An incoming X-ray is shown to have an inelastic collision with an electron, losing some of its energy. Image taken from Encyclopedia Brittanica.}
     \end{center}
 \end{figure}
-\section{Theoretical Background}
+\subsection{Theoretical Background}
 The Compton shift can be explained as a formula that is dependent on the angle of scattering \cite{PhysRev.21.483}:
 \begin{equation}
     \label{comptonShiftWavelength} 
@@ -89,11 +89,11 @@ The Klein-Nishina formula is crucial for the correct interpretation of Compton s
 
 \section{Experimental Procedure}
 \subsection{Apparatus}
-\subsubsection*{Radioactive Source}
+\subsubsection{Radioactive Source}
 Due to the necessity of a high-energy photon source, we used a sample of Cs-137 as a radioactive gamma source. This source was fitted into a lead ball with a 1 centimeter hole drilled through the center of it. There were several lead blocks placed in front of this hole, each with the same 1 centimeter hole drilled through them. To align the source with our detector, we used a laser to ensure that the 1 centimeter hole was in line with the center of the scintillator detector. 
-\subsubsection*{Scintillator}
+\subsubsection{Scintillator}
 Our scintillator was a sodium iodide scintillator manufactured by Saint-Gobain. A NaI (sodium iodide) scintillator operates on the principle of scintillation, where incident gamma rays interact with the crystal lattice to produce visible light. In the context of Compton scattering, when high-energy photons collide with the electrons in the NaI crystal, part of the photon's energy is transferred to the electron, leading to the ejection of the electron and the photon's energy reduction. This process results in the excitation of atoms within the NaI crystal, which de-excite by emitting photons in the visible spectrum. These emitted photons are then detected by an adjacent photomultiplier tube (PMT), converting the light into an electrical signal proportional to the energy of the incident gamma rays. This mechanism is crucial for Compton scattering experiments, as it allows for the precise measurement of energy distributions of scattered photons, providing insights into the scattering process and the interaction of gamma rays with matter.
-\subsubsection*{ORTEC Components}
+\subsubsection{ORTEC Components}
 We also utilized an ORTEC power supply, MCA, and a spectroscopy amplifier. The power supply was an ORTEC 556 set to 1000 Volts. This powered the ORTEC preamplifier connected to the scintillator. The scintillator fed data to the ORTEC 672 spectroscopy amplifier. This amplifier had a shaping time of 1 microsecond, an input of positive polarity on normal mode, a BLR rate of high, and a triangle shaping. This module output data to our ORTEC 927 MCA, which sorted our signals into discrete channels that correspond to the energy of the gamma rays.
 \begin{figure}
     \begin{center}
@@ -104,9 +104,9 @@ We also utilized an ORTEC power supply, MCA, and a spectroscopy amplifier. The p
         \label{fig:apparatus}%
     \end{center}
 \end{figure}
-\subsubsection*{Computer Software}
+\subsubsection{Computer Software}
 We then ran trials on the lab computer's MAESTRO software. This software output data as .chn files which we used Python3 to analyze. All code and analysis functions can be found on \href{https://github.com/adeshpande03/seniorlab}{my personal Github} \cite{adesh}. Furthermore, in order to make data collection easier, we created .job files which MAESTRO used to automatically save our files in case the computer turned off after being on for long periods of time. These are also found on my Github.
-\subsubsection*{Rotating Stage}
+\subsubsection{Rotating Stage}
 In order to accurately determine the scattering angle, we used a rotating stage with the source on one end, and the scintillator on the other. When the stage was rotated, the scintillator would shift by the corresponding angle. Figure \ref{fig:stage} shows an illustration of the apparatus
 \begin{figure}[hbt!]
     \begin{center}
@@ -115,7 +115,7 @@ In order to accurately determine the scattering angle, we used a rotating stage 
         \label{fig:stage}%
     \end{center}
 \end{figure}
-\subsubsection*{Aluminum Rod}
+\subsubsection{Aluminum Rod}
 Finally, the aluminum rod was placed some distance away from the radiation source in order to act as a material to scatter the gamma rays. This rod remained fixed in place while the scattering experiment was running, and was removed while the background signal experiment was running.
 \subsection{Data Collection}
 Before we began collecting data, we collected some calibration data. To do so, we taped a button source of Cs-137 to the scintillator. We then took data for ten minutes using this button source in order to observe a calibration spectrum for Cs-137. This was important as the MCA sorts the data into 'bins' which have no real significance in the real world. In order to convert these bins to their corresponding photon energies, we need to assign each bin number an energy level, which we do using an established source. As our experimental radioactive source was Cs-137, we thought it fitting to use a Cs-137 button source for precision. 
@@ -147,8 +147,8 @@ We collected data for equivalent time intervals for each angle. For example. we 
 \begin{figure}
     \caption{A table depicting the time intervals we used for our data. Each time is entered in seconds, and each angle was run twice -- once for a background run, and once to measure the scattering.}
 \end{figure}
-\subsection{Data Analysis}
-\subsubsection*{Calibration}
+\section{Data Analysis}
+\subsection{Calibration}
 Our data analysis began with writing code to associate each bin with an energy level using the peaks we measured for the Ba-133 and Cs-137 buttons sources. We did so by finding the peak of each graph, and fitting the bin to an accepted energy value for each peak. In the case of the Cs-137 sample, this was at the 662 keV mark\cite{GammaSpectacularCS137}. In the case of the Ba-133 sample, this was at the 356 keV mark \cite{GammaSpectacularBA133}. Figure \ref{fig:calibration} shows this data. 
 \begin{figure}[hbt!]
     \begin{center}
@@ -157,7 +157,7 @@ Our data analysis began with writing code to associate each bin with an energy l
         \label{fig:calibration}%
     \end{center}
 \end{figure}
-\subsubsection*{Angular Data Analysis}
+\subsection{Angular Data Analysis}
 When analyzing data, we had two sets of files -- one set that contained the data for the runs with the rod and one that contained the background data. In order to get meaningful data from the scattering trials, we converted each data set into NumPy arrays of size 16384 and subtracted each bin between the two trials. We used sizes of 16384 as this was the same size as the dataset, and also the same number of bins we used in MAESTRO when recording. This method allowed us to minimize the processing of data before analysis. We were then left with data that clearly showed where the peaks occurred. We loaded this data into a Python program, and used a gaussian curve fitting algorithm to calculate exactly where the peaks in the data were. Furthermore, in order to minimize error, we restricted the domain of the curve fitting algorithm to an acceptable radius around the peak. We did this by visual cues, looking at the graphs and seeing where the most relevant peaks were, further estimating by theoretical calculations.
 
 \begin{figure}[hbt!]
@@ -181,7 +181,7 @@ As we got closer to the 80 degree mark, we ran into some Compton effects. As a r
 \end{figure}
 
 
-\subsubsection*{Compton Scattering Fit}
+\subsection{Compton Scattering Fit}
 Once the peak was calculated for each angle, we fit these peaks to the Compton formula. We did so by mapping the theoretical function data against our real data, and seeing how well the fit matched. This is shown in Figure \ref{fig:comfit}. In this figure, we can clearly see that the blue points (our experimental data) match the theoretical data. 
 
 \begin{figure}[hbt!]
@@ -203,7 +203,7 @@ Then, to quantify the correlation between our experimental data and the theoreti
     \end{center}
 \end{figure}
 
-\subsubsection*{Klein-Nishima Formula}
+\subsection{Klein-Nishima Formula}
 Finally, we plotted our results against the Klein-Nishima formula. We did so in a similar way to our Compton fits. In order to compare the Klein-Nishima formula to the classical model of electrodynamics, we also plotted the Thomson model to show the validity of the Klein-Nishima formula. Figure \ref{fig:kn} shows this relation. Our experimental data closely matches the Klein-Nishima formula in this case, while showing that the Thomson model does not hold true on this scale.
 \begin{figure}[hbt!]
     \begin{center}
@@ -213,18 +213,18 @@ Finally, we plotted our results against the Klein-Nishima formula. We did so in 
     \end{center}
 \end{figure}
 
-\subsection*{Error and Uncertainty}
+\subsection{Error and Uncertainty}
 This experiment had a few sources of error. The primary source of error in this experiment most probably came from background radiation. While we did subtract out the background radiation from each trial, there is a high probability that the trials with the aluminum rod suffered from some sort of noise error. Furthermore, the counts are subject to couting errors, as well as errors in the strength of the radiation source. The sample is likely very old, and has decayed substantially over the years. This would result in us getting lower counts and gamma ray emissions than those in previous experiments done here in Advanced Laboratory. 
 
 Other sources of error could be the settings on our ORTEC machines. We followed advice from previous lab reports stating that the optimal voltage on the power supply was 1000 volts, and copied many of the other settings from those years as well. While these were the suggested setting given by the manuals as well, more optimal settings may exist to reduce the error in the experiment.
 
 \section{Results and Conclusions}
-\subsection*{Results}
+\subsection{Results}
 The experiment successfully demonstrated Compton scattering, with the observed data closely matching theoretical predictions based on the Compton formula and the Klein-Nishina formula. The calibration process using Cs-137 and Ba-133 sources provided a reliable method for converting MCA bin numbers to photon energies, which was crucial for analyzing the scattering data.
 
 The angular data analysis revealed clear peaks corresponding to scattered photon energies at various angles, from which the Compton shift was calculated. The fit of experimental data to the Compton formula yielded an \(R^2\) value of 0.969, indicating a high degree of correlation (96.9\%) between the observed data and the theoretical model. This strong fit suggests that the experiment accurately captured the dynamics of Compton scattering, with the experimental setup effectively demonstrating the energy and wavelength shift predicted by Compton's theory.
 
-\subsection*{Conclusion}
+\subsection{Conclusion}
 The high \(R^2\) value achieved in this experiment underscores the precision and reliability of the experimental design and execution. The data's strong alignment with theoretical predictions confirms the Compton effect's significance in understanding photon-electron interactions and the quantum nature of light. This experiment not only reinforces the principles behind Compton scattering but also highlights the utility of the Klein-Nishina formula in describing the scattering process at higher energies, where relativistic effects become significant.
 
 In conclusion, this experiment offers compelling evidence for the Compton effect. The methodologies employed, from calibration to data analysis, provide a robust framework for exploring complex phenomena in the laboratory setting.
