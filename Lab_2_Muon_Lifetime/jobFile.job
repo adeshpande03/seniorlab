@@ -1,0 +1,6 @@
+SET_DETECTOR 1
+SET_PRESET_CLEAR
+SET_PRESET_LIVE 86400
+START
+WAIT
+SAVE "C:\Users\srlab\Desktop\akhil_nirmal\maybe2.chn"
