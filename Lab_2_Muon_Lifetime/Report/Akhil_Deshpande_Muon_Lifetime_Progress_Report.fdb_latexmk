@@ -1,14 +1,14 @@
 # Fdb version 3
-["bibtex Akhil_Deshpande_Muon_Lifetime_Progress_Report"] 1711574286 "Akhil_Deshpande_Muon_Lifetime_Progress_Report.aux" "Akhil_Deshpande_Muon_Lifetime_Progress_Report.bbl" "Akhil_Deshpande_Muon_Lifetime_Progress_Report" 1711575421
+["bibtex Akhil_Deshpande_Muon_Lifetime_Progress_Report"] 1711584701 "Akhil_Deshpande_Muon_Lifetime_Progress_Report.aux" "Akhil_Deshpande_Muon_Lifetime_Progress_Report.bbl" "Akhil_Deshpande_Muon_Lifetime_Progress_Report" 1711584702
   "/usr/local/texlive/2021/texmf-dist/bibtex/bst/base/unsrt.bst" 1292289607 18030 1376b4b231b50c66211e47e42eda2875 ""
-  "Akhil_Deshpande_Muon_Lifetime_Progress_Report.aux" 1711575413 3337 24cfddc00d03eb6fdbd9fc70f2951fca "pdflatex"
+  "Akhil_Deshpande_Muon_Lifetime_Progress_Report.aux" 1711584702 3587 87857bcef2b74b19d5cf064083eede23 "pdflatex"
   "refs.bib" 1711524174 1747 d25f62c335ef2cc6f12fe3e3c4079a46 ""
   (generated)
-  "Akhil_Deshpande_Muon_Lifetime_Progress_Report.blg"
   "Akhil_Deshpande_Muon_Lifetime_Progress_Report.bbl"
-["pdflatex"] 1711575413 "/Users/akhildeshpande/Documents/VSCode/seniorlab/Lab_2_Muon_Lifetime/Report/Akhil_Deshpande_Muon_Lifetime_Progress_Report.tex" "/Users/akhildeshpande/Documents/VSCode/seniorlab/Lab_2_Muon_Lifetime/Report/Akhil_Deshpande_Muon_Lifetime_Progress_Report.pdf" "Akhil_Deshpande_Muon_Lifetime_Progress_Report" 1711575421
-  "/Users/akhildeshpande/Documents/VSCode/seniorlab/Lab_2_Muon_Lifetime/Report/Akhil_Deshpande_Muon_Lifetime_Progress_Report.aux" 1711575413 3337 24cfddc00d03eb6fdbd9fc70f2951fca ""
-  "/Users/akhildeshpande/Documents/VSCode/seniorlab/Lab_2_Muon_Lifetime/Report/Akhil_Deshpande_Muon_Lifetime_Progress_Report.tex" 1711575421 6587 a69d3f6794e5b4653cc94f2431c885e6 ""
+  "Akhil_Deshpande_Muon_Lifetime_Progress_Report.blg"
+["pdflatex"] 1711584701 "/Users/akhildeshpande/Documents/VSCode/seniorlab/Lab_2_Muon_Lifetime/Report/Akhil_Deshpande_Muon_Lifetime_Progress_Report.tex" "/Users/akhildeshpande/Documents/VSCode/seniorlab/Lab_2_Muon_Lifetime/Report/Akhil_Deshpande_Muon_Lifetime_Progress_Report.pdf" "Akhil_Deshpande_Muon_Lifetime_Progress_Report" 1711584702
+  "/Users/akhildeshpande/Documents/VSCode/seniorlab/Lab_2_Muon_Lifetime/Report/Akhil_Deshpande_Muon_Lifetime_Progress_Report.aux" 1711584702 3587 87857bcef2b74b19d5cf064083eede23 ""
+  "/Users/akhildeshpande/Documents/VSCode/seniorlab/Lab_2_Muon_Lifetime/Report/Akhil_Deshpande_Muon_Lifetime_Progress_Report.tex" 1711584700 10049 500b5d1347b19ffb450e5a3c0cd265bb ""
   "/usr/local/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -95,14 +95,14 @@
   "/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1616695603 5169178 a2ce6e2d73f603b690db6777d06dbccb ""
   "/usr/local/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1646843111 2724734 6759486adf2de4a9d8dec44b68f9ba17 ""
   "/usr/local/texlive/2021/texmf.cnf" 1616695596 577 4c1911a7228e554c6032256d3cf5567d ""
-  "Akhil_Deshpande_Muon_Lifetime_Progress_Report.aux" 1711575413 3337 24cfddc00d03eb6fdbd9fc70f2951fca "pdflatex"
-  "Akhil_Deshpande_Muon_Lifetime_Progress_Report.bbl" 1711574286 1124 412511c78b38f48f3b480373a59da5d8 "bibtex Akhil_Deshpande_Muon_Lifetime_Progress_Report"
-  "Akhil_Deshpande_Muon_Lifetime_Progress_Report.out" 1711575413 2403 f0467d3bd1098892c94baac785de8020 "pdflatex"
-  "Akhil_Deshpande_Muon_Lifetime_Progress_Report.tex" 1711575421 6587 a69d3f6794e5b4653cc94f2431c885e6 ""
+  "Akhil_Deshpande_Muon_Lifetime_Progress_Report.aux" 1711584702 3587 87857bcef2b74b19d5cf064083eede23 "pdflatex"
+  "Akhil_Deshpande_Muon_Lifetime_Progress_Report.bbl" 1711584701 1124 412511c78b38f48f3b480373a59da5d8 "bibtex Akhil_Deshpande_Muon_Lifetime_Progress_Report"
+  "Akhil_Deshpande_Muon_Lifetime_Progress_Report.out" 1711584702 2753 4570ccc8308430a1d0305d2b85df6645 "pdflatex"
+  "Akhil_Deshpande_Muon_Lifetime_Progress_Report.tex" 1711584700 10049 500b5d1347b19ffb450e5a3c0cd265bb ""
   (generated)
-  "Akhil_Deshpande_Muon_Lifetime_Progress_Report.log"
   "Akhil_Deshpande_Muon_Lifetime_Progress_Report.aux"
-  "Akhil_Deshpande_Muon_Lifetime_Progress_Report.out"
   "/Users/akhildeshpande/Documents/VSCode/seniorlab/Lab_2_Muon_Lifetime/Report/Akhil_Deshpande_Muon_Lifetime_Progress_Report.pdf"
+  "Akhil_Deshpande_Muon_Lifetime_Progress_Report.out"
   "Akhil_Deshpande_Muon_Lifetime_Progress_Report.pdf"
   "/Users/akhildeshpande/Documents/VSCode/seniorlab/Lab_2_Muon_Lifetime/Report/Akhil_Deshpande_Muon_Lifetime_Progress_Report.log"
+  "Akhil_Deshpande_Muon_Lifetime_Progress_Report.log"
