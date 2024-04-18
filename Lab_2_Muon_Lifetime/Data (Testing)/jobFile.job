@@ -1,0 +1,6 @@
+SET_DETECTOR 2
+SET_PRESET_CLEAR
+SET_PRESET_LIVE 1000000
+START
+WAIT
+SAVE "C:\Users\srlab\Desktop\akhil_nirmal\maybeLONG.chn"
