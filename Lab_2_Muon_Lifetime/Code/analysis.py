@@ -42,21 +42,28 @@ def curveFitLin(x, m, b):
     return m * x + b
 
 
-params, param_cov = curve_fit(
-    f=curveFitExp,
-    xdata=time - t_0,
-    ydata=data_new,
-    sigma=np.sqrt(data_new),
-    p0=(2.2, data_new[0], data_new[-1]),
-)
+# params, param_cov = curve_fit(
+#     f=curveFitExp,
+#     xdata=time - t_0,
+#     ydata=data_new,
+#     sigma=np.sqrt(data_new),
+#     p0=(2.2, data_new[0], data_new[-1]),
+# )
 
-params, param_cov = curve_fit(
-    f=curveFitLin,
-    xdata=(time - t_0)[2000:10000],
-    ydata=np.log((np.sum(data_new) - np.cumsum(data_new))[2000:10000]),
-    # sigma=np.sqrt(data_new),
-    # p0=(2.2, data_new[0], data_new[-1]),
-)
-plt.ylim(0, 3000)
+# params, param_cov = curve_fit(
+#     f=curveFitLin,
+#     xdata=(time - t_0)[2000:10000],
+#     ydata=np.log((np.sum(data_new) - np.cumsum(data_new))[2000:10000]),
+#     # sigma=np.sqrt(data_new),
+#     # p0=(2.2, data_new[0], data_new[-1]),
+# )
+# file_name = "Data\ (Testing)/calibration.Chn"
+# data_cal = np.fromfile(file_name, dtype=np.int32, count=2**14, offset=32)
+# bins = np.arange(0, 2**14, 1)
 plt.plot(data)
+plt.xlabel("Bins")
+plt.ylabel("Counts")
+plt.title("Counts vs. Bins")
+plt.xlim(left = 2500)
+plt.ylim(top = 50, bottom = 0)
 plt.show()
